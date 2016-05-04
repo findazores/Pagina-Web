@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+#ContentWarp {
+	background-image:url(../Layout/Background/End.png);
+     background-size: 100% 452px;
+	 height:850px;
+	 background-repeat:no-repeat
+}
+
+
+#Panel {
+	margin-left: auto ;
+    margin-right: auto ;
+	padding-top:75px;
+	width:900px;
+	height:740px;
+	background-image:url(../Layout/Panels/Main.png);
+	background-size: 900px 740px;
+}
+
+
+#MiniPanel {
+	padding-top:25px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:50px;
+	margin-left: auto ;
+    margin-right: auto ;
+	width:550px;
+	height:585px;
+	background-image:url(../Layout/Panels/Secondary.png);
+	background-size: 550px 585px;
+	background-repeat:no-repeat
+}
+
+.Text {
+	font-family: "open Sans";
+	font-weight: bold;
+	text-align: center
+	
+	
+}

@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+#ContentWarp {
+	background-image:url(../Layout/Background/End.png);
+     background-size: 100% 452px;
+	 height:990px;
+	 background-repeat:no-repeat
+}
+
+#Panel {
+	margin-left: auto ;
+    margin-right: auto ;
+	padding-top:75px;
+	width:900px;
+	height:900px;
+	background-image:url(../Layout/Panels/Main.png);
+	background-size: 900px 900px;
+}
+
+
+#MiniPanel {
+	padding:50px;
+	margin-left: auto ;
+    margin-right: auto ;
+	width:550px;
+	height:650px;
+	background-image:url(../Layout/Panels/Secondary.png);
+	background-size: 550px 650px;
+	background-repeat:no-repeat
+}
+
+
+
+
+#form-div {
+	margin-left: auto ;
+    margin-right: auto ;
+	width: 450px;;
+}
+
+#Field {
+	border:none;
+	color:#D9CEB2;
+	font-family:"open Sans";
+    font-weight:500;
+	font-size: 18px;
+	line-height: 22px;
+	background-color:#5E3516;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+}
+
+#Field:focus{
+	box-shadow: 0;
+	color:#FFF;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.submit {
+	padding-top:20px;
+	width:205px;
+    height:85px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#SubmBbutton{
+	width: 200px;
+	height:80px;
+	cursor:pointer;
+	border:none;
+	background:url(../Layout/Jogador/Inactive.png);
+	background-repeat:no-repeat;
+
+}
+
+#SubmBbutton:hover {
+	background-image:url(../Layout/Jogador/Hover.png)
+}
+´
+#Title {
+	font-family: "open Sans";
+	font-weight: bold;
+	text-align: center;
+	font-size:36px;
+	
+}

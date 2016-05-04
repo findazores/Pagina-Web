@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+/* Full Page Width */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+/* End Full Page Width */
+
+#Top {
+	background-image:url(../Layout/Background/Main.png);
+     background-size: 100% 350px;
+	height:350px
+}
+
+#MenuWarp {
+	
+	width: 100%;
+	height:60px;
+	background-image:url(../Layout/Background/Buttons.png);
+	background-size: 100% 60px
+}
+
+#MenuButtons {
+	margin-left: auto ;
+    margin-right: auto ;
+	width:765px;
+	height:60px;
+	
+}
+
+/* Navigation */
+
+#navigation {
+	text-align: center;
+	width: auto;
+	height: 60px;
+	float:right
+}
+
+#navigation li {
+	display: inline;
+	list-style-type: none;
+}
+	
+#navigation a {
+	text-decoration:none
+}
+	
+.Home {
+	background-image:url(../Layout/Menu/Buttons/Home/Inactive.png);
+	background-size:120px 60px;
+	float:left;
+	width:120px;
+	height:60px
+}
+
+.Home:hover {
+	background-image:url(../Layout/Menu/Buttons/Home/Hover.png)!important;
+}
+
+.Jogador {
+	background-image:url(../Layout/Menu/Buttons/Jogador/Inactive.png);
+	background-size:130px 60px;
+	float:left;
+	width:130px;
+	height:60px
+}
+
+.Jogador:hover {
+	background-image:url(../Layout/Menu/Buttons/Jogador/Hover.png) !important;
+}
+
+.Patrocinador {
+	background-image:url(../Layout/Menu/Buttons/Patrocinador/Inactive.png);
+	background-size:180px 60px;
+	float:left;
+	width:180px;
+	height:60px
+}
+
+.Patrocinador:hover {
+	background-image:url(../Layout/Menu/Buttons/Patrocinador/Hover.png) !important;
+}
+
+.Questoes {
+	background-image:url(../Layout/Menu/Buttons/Questoes/Inactive.png);
+	background-size:150px 60px;
+	float:left;
+	width:150px;
+	height:60px
+}
+
+.Questoes:hover {
+	background-image:url(../Layout/Menu/Buttons/Questoes/Hover.png) !important;
+}
+
+.Local{
+	background-image:url(../Layout/Menu/Buttons/Local/Inactive.png);
+	background-size:90px 60px;
+	float:left;
+	width:90px;
+	height:60px
+}
+
+.Local:hover {
+	background-image:url(../Layout/Menu/Buttons/Local/Hover.png) !important;
+}
+
+.Premio{
+	background-image:url(../Layout/Menu/Buttons/Premio/Inactive.png);
+	background-size:95px 60px;
+	float:left;
+	width:95px;
+	height:60px
+}
+
+.Premio:hover {
+	background-image:url(../Layout/Menu/Buttons/Premio/Hover.png) !important;
+}
+
+/* End Navigation/Top */
+
+
+
+
+#Wood {
+	margin-left: auto ;
+    margin-right: auto ;
+	width:900px;
+	height:26px;
+	background-image:url(../Layout/Wood.png);
+	background-size: 100% 26px
+}
+
+#BotWood {
+	width:100%;
+	height:26px;
+	background-image:url(../Layout/Wood.png)
+}
+
+#Footer {
+	width:100%;
+	height:60px;
+	background-image:url(../Layout/Panels/Footer.png);
+	background-size: 100% 60px 
+}
