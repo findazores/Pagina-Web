@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jogador</title>
+<link rel="stylesheet" href="../CSS/Jogador.css">
+<link rel="stylesheet" href="../CSS/Layout_A.css">
+<style>
+.Jogador {
+	background-image:url(../Layout/Menu/Buttons/Jogador/OnPage.png) !important;
+}
+
+</style> 
+</head>
+
+<body>
+
+<div id="Top">
+
+</div>
+
+<div id="MenuWarp">
+
+<div id="MenuButtons">
+<nav>
+
+  <div id="navigation">
+  
+  <ul>
+
+    
+    <li><a href="../Index.html"><div class="Home"></div></a></li>
+
+    <li><a href="../PHP/Jogador.php"><div class="Jogador"></div></a></li>
+    
+    <li><a href="../PHP/PHP/Registro.php"><div class="Patrocinador"></div></a></li>
+     <li><a href="../PHP/PHP/Registro.php"><div class="Questoes"></div></a></li>
+     
+     <li><a href="../PHP/PHP/Registro.php"><div class="Local"></div></a></li>
+ 
+  <li><a href="../PHP/PHP/Registro.php"><div class="Premio"></div></a></li>
+  </ul>
+  
+  </div> 
+  
+</nav>
+</div>
+
+</div>
+
+<div id="ContentWarp">
+
+
+<div id="Wood">
+
+</div>
+
+<div id="Panel">
+
+ 
+<form class="form" id="form1">
+
+<div id="MiniPanel">
+<p id="Title" style="font-size:36px; font-family:'open Sans'; font-weight:bold; text-align:center"> Inserir dados de Jogador </p>
+<br>
+
+  <div id="form-div">
+  
+      <p class="Nome">
+      <input type="text" required id="Field" name="nome" maxlength="25" placeholder="Nome *"/>
+      </p>
+      
+      <p class="Sobrenome">
+        <input type="text" required id="Field" name="nome" maxlength="25" placeholder="Sobrenome *" />
+      </p>
+      
+      <p class="NumID">
+        <input type="text" required pattern="[0-9]+$" id="Field" name="numero" placeholder="Num. Identificação *"/>
+      </p>
+      
+      <p class="Nacio">
+         <input type="text" required id="Field" name="numero" placeholder="Nacionalidade *" />
+      </p>
+      
+      <p class="Telem">
+        <input type="text" required pattern="[0-9]+$" id="Field" name="numero" placeholder="Telemóvel *" />
+      </p>
+      
+      <p class="email"> 
+        <input type="text" required id="Field" name="numero" placeholder="Email *" />
+      </p>
+      
+      <p class="Confirm">
+      <select name="Confirm" required  id="Field">
+<option disabled selected>Confirmar</option>        <option>Sim</option>
+        <option>Não</option>
+      </select>
+
+      </p>
+      
+      <p class="Pontos">
+        <input type="text" required pattern="[0-9]+$" id="Field" name="numero" placeholder="Pontos *" />
+      </p>
+       </div>
+       
+
+</div>
+
+<div class="submit">
+        <input type="submit" value="" id="SubmBbutton"/>
+      </div>
+    </form>
+</div>
+</div>
+
+<div id="BotWood">
+
+</div>
+
+<div id="Footer">
+
+
+</div>
+
+</body>
+</html>
